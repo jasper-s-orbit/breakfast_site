@@ -81,7 +81,7 @@ function renderCartItems() {
                 <div class="icon"><i class="fas fa-shopping-cart"></i></div>
                 <h2>Your cart is empty</h2>
                 <p>Looks like you haven't added any items yet</p>
-                <a href="menu/menu.html" class="button">Browse Menu</a>
+                <a href="menu.html" class="button">Browse Menu</a>
             </div>
         `;
         return;
