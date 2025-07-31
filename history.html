@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Morning Delight</title>
+    <link rel="stylesheet" href="history.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">Morning Delight</a>
+        </div>
+
+        <nav id="nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order1.html">Order</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="track.html">Track</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <h2 class="order">Order History</h2>
+
+    <div id="history-container">
+        <!-- Order history will be dynamically inserted here by process.js -->
+        <div class="loading-spinner"></div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Morning Delight</h3>
+                <p>Fresh breakfast delivered to your door. Start your day right with our delicious morning meals.</p>
+                <div class="soc-ico">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="order1.html">Order Now</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="track.html">Track Order</a></li>
+                    <li><a href="history.html">Order History</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contact Info</h4>
+                <div class="contact-info">
+                    <a href="tel:+15551234567" aria-label="Phone"><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</a>
+                    <a href="mailto:hello@morningdelight.com" aria-label="Email"><i class="fa-solid fa-envelope"></i> hello@morningdelight.com</a>
+                    <a href=""><i class="fa-solid fa-location-dot"></i> 123 Breakfast St, Food City</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Morning Delight. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="process.js"></script>
+</body>
+</html>
