@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <header id="header">
+   <header id="header">
         <div class="logo">
-           <a href="index.html">Morning Delight</a>
+            <a href="index.html">Morning Delight</a>
         </div>
 
         <nav id="nav">
@@ -27,8 +27,11 @@
             </ul>
         </nav>
 
-        <div class="cart">
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <div class="cart-container">
+            <a href="cart.html" class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-bubble" class="cart-bubble" style="display: none;">0</span>
+            </a>
         </div>
 
         <div class="menu-toggle" id="menuToggle">
